@@ -1,0 +1,107 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #87CEEB, #E0FFFF); /* Light blue to light cyan gradient */
+      color: #333;
+    }
+
+    #root {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border: 2px solid #ADD8E6; /* Light Blue Border */
+    }
+
+    h1 {
+      text-align: center;
+      color: #007BFF; /* A vibrant blue */
+      margin-bottom: 20px;
+    }
+
+    .task-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .task-item {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      background-color: #f9f9f9;
+      transition: background-color 0.2s ease;
+    }
+
+    .task-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .task-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .task-item input[type="checkbox"] {
+      margin-right: 12px;
+      cursor: pointer;
+    }
+
+    .task-item span {
+      flex-grow: 1;
+      font-size: 1.1rem;
+    }
+
+    .task-item button {
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .task-item button:hover {
+      background-color: #c82333;
+    }
+
+    .add-task-form {
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    .add-task-form input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-right: 12px;
+      width: 70%;
+      font-size: 1rem;
+    }
+
+    .add-task-form button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .add-task-form button:hover {
+      background-color: #218838;
+    }
+
+    /* Task Counts */
+    div > p {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      color: #555;
+    }
